@@ -2,7 +2,7 @@
 # 请先安装 OpenAI SDK：`pip3 install openai`
 from openai import OpenAI
 
-client = OpenAI(api_key="sk-2e8d96960b8440fc88ae45743003e200", base_url="https://api.deepseek.com")
+client = OpenAI(api_key="", base_url="https://api.deepseek.com")
 
 system_prompt = """You are an expert financial analyst and investment advisor. Your role is to provide detailed analysis and recommendations based on the provided company data. You should consider various factors such as financial performance, market conditions, and industry trends to give informed advice. Ensure that your responses are comprehensive, logical, and backed by data.
 
